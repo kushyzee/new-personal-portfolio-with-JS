@@ -333,8 +333,8 @@ a {
     /* From https://css.glass */
     background: rgba(255, 255, 255, 0.2);
     box-shadow: 0 4px 10px rgba(170, 254, 201, 0.3);
-    backdrop-filter: blur(1.8px);
     -webkit-backdrop-filter: blur(1.8px);
+    backdrop-filter: blur(1.8px);
     border: 1px solid hsl(157, 80%, 80%);
     transition: all .2s linear;
     opacity: 0;
@@ -469,8 +469,8 @@ a {
     /* From https://css.glass */
     background: hsla(212, 41%, 8%, .7);
     box-shadow: 0 4px 30px hsla(212, 41%, 8%, .3) inset;
-    backdrop-filter: blur(2.1px);
     -webkit-backdrop-filter: blur(2.1px);
+    backdrop-filter: blur(2.1px);
     border: 1px solid hsl(157, 80%, 80%);
     opacity: 0;
     transition: all .5s linear;
@@ -498,6 +498,7 @@ a {
     background-color: var(--darkgreen);
     color: white;
     transition: all .3s linear;
+    -webkit-user-select: none;
     user-select: none;
 }
 
@@ -515,8 +516,8 @@ a {
 /* From https://css.glass */
     background: rgba(255, 255, 255, 0.2);
     box-shadow: 0 4px 10px rgba(170, 254, 201, 0.5);
-    backdrop-filter: blur(2.1px);
     -webkit-backdrop-filter: blur(2.1px);
+    backdrop-filter: blur(2.1px);
     border: 1px solid hsl(157, 80%, 80%);
     border-radius: 5px;
     transition: all .2s linear;
@@ -618,8 +619,8 @@ a {
 /* From https://css.glass */
     background: rgba(255, 255, 255, 0.2);
     box-shadow: 0 4px 10px rgba(170, 254, 201, 0.5);
-    backdrop-filter: blur(4.1px);
     -webkit-backdrop-filter: blur(4.1px);
+    backdrop-filter: blur(4.1px);
     border: 1px solid hsl(157, 80%, 80%);    
     transition: all .2s linear;
     opacity: 0;
@@ -819,8 +820,8 @@ footer p {
         /* From https://css.glass */
             background: rgba(255, 255, 255, 0.2);
             box-shadow: 0 4px 10px rgba(170, 254, 201, 0.3);
-            backdrop-filter: blur(1.8px);
             -webkit-backdrop-filter: blur(1.8px);
+            backdrop-filter: blur(1.8px);
             border: 1px solid hsl(157, 80%, 80%);
             opacity: 0;
             pointer-events: none;
