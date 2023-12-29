@@ -834,6 +834,8 @@ footer p {
   }
 
   header {
+		background-color: var(--darkblue);
+		padding-block: 1rem;
     display: flex;
 		position: fixed;
     justify-content: space-around;
@@ -856,7 +858,7 @@ footer p {
     width: -moz-fit-content;
     width: fit-content;
 		margin-left: auto;
-    margin-right: 2em;
+    /* margin-right: 2em; */
     border-radius: 5px;
     /* background-color: transparent; */
   }
@@ -878,8 +880,13 @@ footer p {
     background-color: var(--darkblue);
   }
 
-	#navbar li:not(:nth-of-type(1)) a {
+	#navbar li a {
 		border-left: 2px var(--lightergreen) solid;
+	}
+
+	#navbar li:nth-last-of-type(1) a {
+		border-right: 2px var(--lightergreen) solid;
+
 	}
 
   #navbar li:nth-of-type(1) a {
