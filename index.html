@@ -195,15 +195,26 @@
           </div>
         </article>
         <div class="profile-link-wrapper">
-          <a
-            rel="noopener"
-            href="https://github.com/kushyzee"
-            target="_blank"
-            id="profile-link"
-            class="button"
-            >See All <i class="fa-solid fa-arrow-right"></i
-          ></a>
+          <button class="button" id="profile-link">See All <i class="fa-solid fa-arrow-right"></i
+						>
+					</button> 
         </div>
+				<dialog id="see-all-dialog" aria-labelledby="profile-link" aria-modal="true" for="profile-link" class="dialog">
+					<h2>Go to github?</h2>
+					<div class="btn-wrapper">
+		
+							<a rel="noopener"
+							href="https://github.com/kushyzee"
+							target="_blank"
+							class="dialog-button">
+								<button id="git-btn"
+								type="submit">
+								github
+								</button>
+							</a>
+									<button id="git-cancel-btn" type="button">cancel</button>
+					</div>
+				</dialog>
       </section>
       <!-- PORTFOLIO SECTION ENDS -->
 
@@ -219,7 +230,7 @@
                 name="full-name"
                 placeholder="Full Name"
                 required
-                autocomplete
+                autocomplete="true"
               />
               <input
                 type="email"
@@ -227,7 +238,7 @@
                 name="email"
                 placeholder="Email Address"
                 required
-                autocomplete
+                autocomplete="true"
               />
               <input
                 type="text"
@@ -240,8 +251,8 @@
                 Send Message
               </button>
             </form>
-						
-						<dialog aria-modal="true" aria-labelledby="contact" for="contact-form" id="dialog">
+
+						<dialog class="dialog" aria-modal="true" aria-labelledby="contact" for="contact-form" id="dialog">
 							<h2>submit form?</h2>
 							<div class="btn-wrapper">
 								<button id="submit-btn" type="submit">submit</button>
