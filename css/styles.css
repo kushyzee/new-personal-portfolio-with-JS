@@ -8,7 +8,7 @@
 
 html {
   font-size: 62.5%;
-  scroll-padding-top: 75px;
+  scroll-padding-top: 90px;
 }
 
 body {
@@ -92,7 +92,7 @@ header {
 #navbar::before {
   bottom: 0;
   right: 0;
-  background: url(../images/blob.svg);
+  background: url(https://ik.imagekit.io/kushyzee/personal_portfolio/blob.svg);
   background-size: 180%;
   background-repeat: no-repeat;
   transform: rotate(180deg);
@@ -102,7 +102,7 @@ header {
 #navbar::after {
   top: 0;
   left: 0;
-  background: url(../images/blob.svg);
+  background: url(https://ik.imagekit.io/kushyzee/personal_portfolio/blob.svg);
   background-size: 180%;
   background-repeat: no-repeat;
   z-index: -1;
@@ -179,7 +179,7 @@ a {
   height: 100svh;
   color: white;
   background-color: var(--darkblue);
-  background: url(../images/bg.jpg);
+  background: url(https://ik.imagekit.io/kushyzee/personal_portfolio/bg.jpg);
   background-size: cover;
   background-position: 85%;
   background-repeat: no-repeat;
@@ -202,10 +202,6 @@ a {
 .welcome-wrapper {
   position: relative;
   display: flex;
-  background: url(../images/wave.svg);
-  background-position: bottom right;
-  background-size: 100%;
-  background-repeat: no-repeat;
   height: 100%;
   flex-direction: column;
   align-items: center;
@@ -939,12 +935,6 @@ footer p {
 		height: 100svh;
 		height: 100vh;
 	}
-
-  .welcome-wrapper {
-    background: url(../images/wave-big.svg);
-    background-repeat: no-repeat;
-    background-position: bottom;
-  }
 
   .welcome-wrapper p:nth-of-type(1) {
     font-size: 2.5rem;
