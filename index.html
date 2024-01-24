@@ -21,7 +21,7 @@
   <body>
     <header>
       <div id="logo-toggler">
-				<a href="#"><img id="logo" src="./images/logo.svg" alt="logo" /></a>
+        <a href="#"><img id="logo" src="./images/logo.svg" alt="logo" /></a>
         <!-- <input aria-label="menu buttons" type="checkbox" name="menu-btns" id="menu-btn"> -->
         <i
           aria-label="open nav bar button"
@@ -47,7 +47,7 @@
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
-			<div class="hidden" id="trigger-area"></div>
+      <div class="hidden" id="trigger-area"></div>
     </header>
 
     <main>
@@ -195,26 +195,30 @@
           </div>
         </article>
         <div class="profile-link-wrapper">
-          <button class="button" id="profile-link">See All <i class="fa-solid fa-arrow-right"></i
-						>
-					</button> 
+          <button class="button" id="profile-link">
+            See All <i class="fa-solid fa-arrow-right"></i>
+          </button>
         </div>
-				<dialog id="see-all-dialog" aria-labelledby="profile-link" aria-modal="true" for="profile-link" class="dialog">
-					<h2>Open github?</h2>
-					<div class="btn-wrapper">
-		
-							<a rel="noopener"
-							href="https://github.com/kushyzee"
-							target="_blank"
-							class="dialog-button">
-								<button id="git-btn"
-								type="submit">
-								Open
-								</button>
-							</a>
-									<button id="git-cancel-btn" type="button">cancel</button>
-					</div>
-				</dialog>
+        <dialog
+          id="see-all-dialog"
+          aria-labelledby="profile-link"
+          aria-modal="true"
+          for="profile-link"
+          class="dialog"
+        >
+          <h2>Open github?</h2>
+          <div class="btn-wrapper">
+            <a
+              rel="noopener"
+              href="https://github.com/kushyzee"
+              target="_blank"
+              class="dialog-button"
+            >
+              <button id="git-btn" type="submit">Open</button>
+            </a>
+            <button id="git-cancel-btn" type="button">cancel</button>
+          </div>
+        </dialog>
       </section>
       <!-- PORTFOLIO SECTION ENDS -->
 
@@ -223,7 +227,11 @@
         <div class="contact">
           <article class="form-wrapper">
             <h2 class="subheading inverse">Get in touch <span></span></h2>
-            <form id="contact-form" action="https://formspree.io/f/meqnvzqg" method="post">
+            <form
+              id="contact-form"
+              action="https://formspree.io/f/meqnvzqg"
+              method="post"
+            >
               <input
                 type="text"
                 id="name"
@@ -252,15 +260,19 @@
               </button>
             </form>
 
-						<dialog class="dialog" aria-modal="true" aria-labelledby="contact" for="contact-form" id="dialog">
-							<h2>submit form?</h2>
-							<div class="btn-wrapper">
-								<button id="submit-btn" type="submit">submit</button>
-								<button id="cancel-btn" type="button">cancel</button>
-							</div>
-						</dialog>
-						
-
+            <dialog
+              class="dialog"
+              aria-modal="true"
+              aria-labelledby="contact"
+              for="contact-form"
+              id="dialog"
+            >
+              <h2>submit form?</h2>
+              <div class="btn-wrapper">
+                <button id="submit-btn" type="submit">submit</button>
+                <button id="cancel-btn" type="button">cancel</button>
+              </div>
+            </dialog>
           </article>
           <article class="contact-info">
             <h2 class="subheading">Contact info</h2>
